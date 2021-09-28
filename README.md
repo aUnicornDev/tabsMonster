@@ -37,7 +37,7 @@ Clone the project
 
 - On Installation, you should be redirected to [tabsMonster Landing page](https://aunicorndev.github.io/tabsMonster/)
 
-- Use the extension icon to get the number of current opne tabs.
+- Use the extension icon to get the number of current open tabs.
 
 - On making changes to the Chrome Extension, reload the extension.
   
