@@ -1,3 +1,5 @@
+![Logo](https://aunicorndev.github.io/tabsMonster/img/tabsMonster.svg)
+
 # tabsMonster
 
 A Chrome extension to keep a tab on your Browser Tabs
