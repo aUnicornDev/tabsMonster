@@ -1,8 +1,21 @@
 ![Logo](https://aunicorndev.github.io/tabsMonster/img/tabsMonster.svg)
 
-# tabsMonster
+# 👾 TABSMONSTER 👾
 
-A Chrome extension to keep a tab on your Browser Tabs
+A ```Chrome Extension``` to keep a tab on your Browser Tabs
+
+## 🎯 Vision and RoadMap
+
+The primary mission is to publish a chrome extension on Chrome Web store with minimum functionality added and work on adding the features moving forward.
+
+Read below on how you can contribute..
+
+# 💡 What was the idea behind it???
+
+This is a fun project just to share the number of Browser Tabs to such questions!!!!
+
+![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/jackForge.png)
+![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/adobe.png)
 
 ## Running the Landing Page Locally
 
@@ -43,10 +56,42 @@ Clone the project
 
 - On making changes to the Chrome Extension, reload the extension.
   
-## Contributing
+## 🤝 How to Contribute
 
 Contributions are always welcome!
 
-The work on `contributing.md` is in progress and will be ready soon.
+But the Chrome Extension code is not the only way.
+
+- Help in building the landing page
+
+- Help with the `tabsMonsterHub` , a github like contribution chart for you daily tabs open.
+ 
+- Suggest features related to this.. 
+
+[@mesetatron](https://twitter.com/mesetatron) from Twitter suggested the `tabsMonsterHub` idea.
+
+Each idea is very valuable!!
+
+- Help with theme ideas for the extension.
+
+
+Example for Theme
+
+Marvel Theme 
+
+| Character         | monsterLevel    (mber of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Hawkeye | 30 |
+| Black Widow | 60 |
+| Iron Man | 90 |
+| Captain America | 120 |
+| Hulk | 150 |
+| Thor | 180 |
+
+Give ideas for different `Monster Themes` that can vary from Anime theme to anything!!!
 
 Feel free to play around and give your ideas and feedback at aunicorndeveloper@gmail.com or DM me on Twitter at [@aUnicornDev](https://twitter.com/aUnicornDev)
+
+# 🤲 Want to Motivate?
+
+Who doesn't need motivation? Please give the project a star(⭐) and/or share it in your dev circle.
