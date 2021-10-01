@@ -1,4 +1,4 @@
-![Logo](https://aunicorndev.github.io/tabsMonster/img/tabsMonster.svg)
+![Logo](docs/img/tabsMonster.svg)
 
 # 👾 TABSMONSTER 👾
 
