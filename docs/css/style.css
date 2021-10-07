@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+    
+}
+.monster-logo{
+  height:60vh; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Balsamiq Sans', cursive ;
+  letter-spacing:-16px;
+  font-size:180px;
+  margin-top: -20px;
+  margin-bottom: -120px;
+}
+.logo{
+  position:relative;
+}
+.removeO{
+  opacity:0;
+}
+.eye{
+  cursor:pointer;
+  top:35%;
+  left:50%;
+  position:absolute;
+  height:90px;
+  width:90px;
+  border-radius:50%;
+  background-color:#208A5E;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.eye-ball{
+  position:absolute;
+  top:60%;
+  left:75%;
+  transform:translate(-50%,-50%);
+  
+  background-color:#000;
+  border-radius:50%;
+  height:30px;
+  width:30px;
+  overflow:hidden;
+  
+}
+.eye-ball-space{
+  position:relative;
+  background-color:#fff;
+  height:70px;
+  width:70px;
+  border-radius:50%;
+  overflow:hidden;
+}
+.inner-eye-ball{
+  position:absolute;
+  height:10px;
+  width:10px;
+  background-color:white;
+  border-radius:50%;
+  top:30%;
+  left:50%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.r-nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Nunito',sans-serif;
+    
+}
+
+.r-nav li{
+    list-style:none;
+    margin:10px;
+}
+.r-nav a{
+    text-decoration: none;
+    padding:1rem;
+    color: #000;
+    font-size: 20px;
+    display: block;
+}
+.toggle-button{
+    position: absolute;
+    top:2.3rem;
+    right:1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30px;
+    height:21px;
+}
+.toggle-button .bar{
+    height:3px;
+    width:100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.r-nav li a:hover{
+    color: #208A5E;
+    transition: all .3s ease;
+}
+
+.download{
+    border-radius: 20px;
+    padding:12px 8px;
+    font-family: 'Nunito', sans-serif;
+    border:none;
+    background-color: #208A5E;
+    color:white;
+    width:250px;
+    font-size:20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.download-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.download-parent a{
+    margin-right: 10px;
+    margin-top: 15px;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+}
+.hero,.navbar{
+    background-color: #b4ddf0;
+
+}
+.hero{
+    height: 100vh;
+}
+.tagline{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
