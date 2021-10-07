@@ -55,42 +55,18 @@
 
 <!--Copy starting point-->
 
-| Character (Pokemon - Bulbasaur)        | monsterLevel    (number of tabs)|
+| Character (Pokemon)        | monsterLevel    (number of tabs)|
 | ----------------- | ------------------------------------------------------------------ |
 | Bulbasaur | 5 |
-| Ivysaur | 16 |
-| Venasaur | 36 |
-| Zapdos | 70 |
-| Mewtwo | 100 |
-| Mew | 180 |
-
-<!--Copy ending point-->
-
-<!--Copy starting point-->
-
-| Character (Pokemon - Charmander)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Charmander | 5 |
-| Charmeleon | 16 |
-| Charizard | 36 |
-| Moltres | 70 |
-| Mewtwo | 100 |
-| Mew | 180 |
-
-<!--Copy ending point-->
-
-<!--Copy starting point-->
-
-| Character (Pokemon - Squirtle)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Squirtle | 5 |
 | Wartortle | 16 |
-| Blastoise | 36 |
-| Articuno | 70 |
+| Charizard | 36 |
+| Articuno | 60 |
+| Zapdos | 70 |
+| Moltres | 80 |
 | Mewtwo | 100 |
 | Mew | 180 |
 
-<!--Copy ending point-->
+<!--Copy end point-->
 
 <!--Copy starting point-->
 
