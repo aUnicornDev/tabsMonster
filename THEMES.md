@@ -86,6 +86,23 @@
 
 <!--Copy ending point-->
 
+<!--Copy starting point-->
+
+| Character (Naruto)        | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Sakura | 5 |
+| Shikamaru | 15 |
+| Kakashi | 40 |
+| Itachi | 60 |
+| Obito | 80 |
+| Minato | 90 |
+| Madara | 130 |
+| Hashirama | 150 |
+| Sasuke | 180 |
+| Naruto | 200 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
