@@ -95,7 +95,8 @@
 | Kakashi | 40 |
 | Itachi | 60 |
 | Obito | 80 |
-| Minato | 90 |
+| Minato | 95 |
+| Might Guy | 122 |
 | Madara | 130 |
 | Hashirama | 150 |
 | Sasuke | 180 |
