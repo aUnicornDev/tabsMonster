@@ -104,6 +104,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (Attack On Titan)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Bertolt | 10 |
+| Jean Kirstein | 20 |
+| Reiner Braun | 40 |
+| Armin | 70 |
+| Erwin | 80 |
+| Annie | 90 |
+| Zeke | 120 |
+| Mikasa | 160 |
+| Levi | 190 |
+| Eren | 210 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
