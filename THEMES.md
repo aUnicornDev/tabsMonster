@@ -121,6 +121,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (Fortnite Skins)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Tomato Head | 10 |
+| Creepy Bear | 25 |
+| Astro Jack | 40 |
+| Midas | 60 |
+| Fishstick | 75 |
+| Peely | 90 |
+| Raven | 130 |
+| Blaze | 150 |
+| Rippley | 165 |
+| Guff | 200 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
