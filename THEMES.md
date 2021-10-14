@@ -138,6 +138,22 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (DC)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Joker | 10 |
+| Cyborg | 30 |
+| Aquaman | 40 |
+| Flash | 70 |
+| Green Lantern | 100 |
+| Super Girl | 140 |
+| Wonder Woman | 170 |
+| Batman | 350 |
+| Superman | 2000 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
