@@ -138,6 +138,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (One Piece)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Sabo | 10 |
+| Portgas.D.Ace | 35 |
+| Carrot | 55 |
+| Boa Hancock | 75 |
+| Nico Robin | 95 |
+| Trafalgar Law | 115 |
+| Sanji | 135 |
+| Nami | 160 |
+| Rorona Zora | 185 |
+| Monkey.D.Luffy | 200 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
