@@ -138,6 +138,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (SpongeBob SquarePants)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Patrick Star | 1 |
+| SpongeBob SquarePants | 5 |
+| Pearl Krabs | 10 |
+| Mrs. Poppy Puff | 20 |
+| Squidward Tentacles | 30 |
+| Mr. Krabs | 50 |
+| Gary | 80 |
+| Sheldon J. Plankton | 140 |
+| Sandy Cheeks | 180 |
+| Karen | 240 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
