@@ -138,6 +138,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (Dragon ball)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Goku | 10 |
+| Vegeta | 25 |
+| Gohan | 40 |
+| Goten | 60 |
+| Trunks | 75 |
+| Yamcha | 90 |
+| Mr.satan | 130 |
+| Tien Shinhan | 150 |
+| Piccolo | 165 |
+| Shenron | 200 |
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
