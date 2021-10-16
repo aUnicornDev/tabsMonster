@@ -139,7 +139,7 @@
 <!--Copy end point-->
 
 
-| Character (Dragon ball)       | monsterLevel    (number of tabs)|
+| Character (Dragon ball)       | monsterLevel    (number of tabs)|          monsterQuote
 | ----------------- | ------------------------------------------------------------------ |
 | Goku | 10 | And this... is to go... even further beyond!
 | Vegeta | 25 | I do not fear this new challenge. Rather like a true warrior I will rise to meet it.
