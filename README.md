@@ -14,8 +14,8 @@ Read below on how you can contribute..
 
 This is a fun project just to share the number of Browser Tabs and answer such questions!!!!
 
-![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/jackForge.png)
-![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/adobe.png)
+<img src="https://aunicorndev.github.io/tabsMonster/img/jackForge.png" alt="App Screenshot" style="width:700px;"/>
+<img src="https://aunicorndev.github.io/tabsMonster/img/adobe.png" alt="App Screenshot" style="width:700px;"/>
 
 ## Running the Landing Page Locally
 
