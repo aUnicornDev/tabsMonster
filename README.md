@@ -14,8 +14,8 @@ Read below on how you can contribute..
 
 This is a fun project just to share the number of Browser Tabs and answer such questions!!!!
 
-![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/jackForge.png)
-![App Screenshot](https://aunicorndev.github.io/tabsMonster/img/adobe.png)
+<img src="https://aunicorndev.github.io/tabsMonster/img/jackForge.png" alt="App Screenshot" style="width:700px;"/>
+<img src="https://aunicorndev.github.io/tabsMonster/img/adobe.png" alt="App Screenshot" style="width:700px;"/>
 
 ## Running the Landing Page Locally
 
@@ -33,6 +33,8 @@ Go to the project directory
 
 
 For now there are no dependencies, so open up VS code and use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension to run the Website.
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/aUnicornDev/tabsMonster)
 
 ## Running the Chrome Extension Locally
 
