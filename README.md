@@ -34,6 +34,8 @@ Go to the project directory
 
 For now there are no dependencies, so open up VS code and use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension to run the Website.
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/aUnicornDev/tabsMonster)
+
 ## Running the Chrome Extension Locally
 
 Clone the project
