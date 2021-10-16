@@ -138,6 +138,23 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (One Piece)       | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Sabo | 10 |Just remember if Luffy ever calls for my help, no matter where I am in the world, I'll be there forget my position|
+| Portgas.D.Ace | 35 |We have to live a life of no regrest|
+| Trafalgar D. Water Law | 55 |The weak don’t get to decide anything, not even how they die.|
+| Boa Hancock | 75 |...no matter what I may do...I will always be forgiven...why, you ask...?...It is because I am BEAUTIFUL!!!|
+| Nico Robin | 95 |When You Have A Hard Time, Just Laugh|
+| Sanji | 115 |I Heard The Sound Of A Woman’s Tears Falling|
+| Blackbeard | 135 |People's dreams don't ever end!|
+| Whitebeard | 160 |Doesn't matter who you're born to… Everyone's still a child of the sea!!|
+| Rorona Zora | 185 |Only I Can Call My Dream Stupid!|
+| Monkey.D.Luffy | 200 |Forgetting is like a wound. The wound may heal but it has already left a scar.|
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
