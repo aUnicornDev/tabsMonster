@@ -6,14 +6,14 @@
 
 <!--Copy starting point-->
 
-| Character(Marvel)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Hawkeye | 30 |
-| Black Widow | 60 |
-| Iron Man | 90 |
-| Captain America | 120 |
-| Hulk | 150 |
-| Thor | 180 |
+| Character(Marvel)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Hawkeye | 30 |..But If You Step Out That Door, You Are An Avenger.|
+| Black Widow | 60 |I Get Emails From A Raccoon. Nothing Sounds Crazy Anymore.|
+| Iron Man | 90 |I’m A Huge Fan Of The Way You Lose Control And Turn Into An Enormous Green Rage Monster.|
+| Captain America | 120 |I CAN DO THIS ALL DAY.|
+| Hulk | 150 | That's my secret Captain... I 'm always angry |
+| Thor | 180 | Bring Me Thanos !! |
 
 <!--Copy ending point-->
 
