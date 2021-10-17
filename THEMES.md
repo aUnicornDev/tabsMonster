@@ -141,17 +141,17 @@
 <!--Copy starting point-->
 
 | Character (Dragon ball)       | monsterLevel    (number of tabs)| monsterQuote
-| ----------------- | ------------------------------------------------------------------ |
-| Goku | 10 | And this... is to go... even further beyond!
-| Vegeta | 25 | I do not fear this new challenge. Rather like a true warrior I will rise to meet it.
-| Gohan | 40 | There's a lot more out there that I want to protect.
-| Yamcha| 60 | I hope I can make it out of this alive...
-| Trunks | 75 | I can't rely on others forever. I have to win my own battles!
-| Frieza | 90 | That’s right. Get it all out. Live boldly... even if it is only for a few more moments.
-| Cell | 130 | I thought you would’ve learned by now.
-| Bulma | 150 | Look at you! You’re supposed to cover up the front!
-| Piccolo | 165 | Sorry to keep you waiting.
-| Android 18 | 200 | You were…alive all this time?
+| ----------------- | ------------------------------------------------------------------ | --|
+| Goku | 10 | And this... is to go... even further beyond! |
+| Vegeta | 25 | I do not fear this new challenge. Rather like a true warrior I will rise to meet it. |
+| Gohan | 40 | There's a lot more out there that I want to protect. |
+| Yamcha| 60 | I hope I can make it out of this alive...  |
+| Trunks | 75 | I can't rely on others forever. I have to win my own battles!   |
+| Frieza | 90 | That’s right. Get it all out. Live boldly... even if it is only for a few more moments.  |
+| Cell | 130 | I thought you would’ve learned by now.  |
+| Bulma | 150 | Look at you! You’re supposed to cover up the front!  |
+| Piccolo | 165 | Sorry to keep you waiting.  |
+| Android 18 | 200 | You were…alive all this time?  |
 
 <!--Copy end point-->
 
