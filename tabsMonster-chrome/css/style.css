@@ -1,0 +1,50 @@
+body{
+    height: 350px;
+    width: 400px;
+    /* background-color: #E5E5E5; */
+    margin: 0;
+
+}
+
+.extensionTab{
+    height: 30px;
+    color: white;
+}
+
+.extensionTab .tab1{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px 34px 8px 29px;
+    background-color: #E5E5E5;
+}
+
+.extensionTab .tab2{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px 34px 8px 29px;
+    background-color: white;
+    border-right: 1px solid #E5E5E5;
+}
+
+.addBar{
+    display: inline-block;
+    height: 39px;
+    width: 400px;
+    background-color: #E5E5E5;
+}
+.addBar .address{
+    height: 24px;
+    width: 286px;
+    background-color: white;
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    border-radius: 26px;
+}
+.addBar .address img{
+    height: 12px;
+}

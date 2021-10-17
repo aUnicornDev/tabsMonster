@@ -1,4 +1,3 @@
-
 const tabsCount = document.querySelector('.tabsCount');
 
 const setMonsterData = (res)=>{
@@ -15,6 +14,5 @@ document.addEventListener('DOMContentLoaded',()=>{
                 name:"getMonsterData"
             },
             setMonsterData
-
         )
     })
