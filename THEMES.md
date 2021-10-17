@@ -155,6 +155,22 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (DC)       | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |
+| Joker | 10 |No, you-- you complete me!|
+| Cyborg | 30 |Booyah|
+| Aquaman | 40 |I am the protector of the Deep|
+| Flash | 70 |I am the fastest man alive|
+| Green Lantern | 100 |In brightest day, in darkest night No evil shall escape my sight! Let those who worship evil’s might Beware my power — Green Lantern’s light!|
+| Super Girl | 140 |Hope, help, and compassion for all|
+| Wonder Woman | 170 |If loss makes you doubt your belief in justice, then you never truly believed in justice at all.|
+| Batman | 350 |It’s not who I am underneath, but what I do that defines me.|
+| Superman | 2000 |You’re going to change the world.|
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
