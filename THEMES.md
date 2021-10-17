@@ -138,6 +138,8 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
 | Character (Dragon ball)       | monsterLevel    (number of tabs)| monsterQuote
 | ----------------- | ------------------------------------------------------------------ |
 | Goku | 10 | And this... is to go... even further beyond!
