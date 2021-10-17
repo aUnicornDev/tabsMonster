@@ -6,14 +6,14 @@
 
 <!--Copy starting point-->
 
-| Character(Marvel)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Hawkeye | 30 |
-| Black Widow | 60 |
-| Iron Man | 90 |
-| Captain America | 120 |
-| Hulk | 150 |
-| Thor | 180 |
+| Character(Marvel)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Hawkeye | 30 |..But If You Step Out That Door, You Are An Avenger.|
+| Black Widow | 60 |I Get Emails From A Raccoon. Nothing Sounds Crazy Anymore.|
+| Iron Man | 90 |I’m A Huge Fan Of The Way You Lose Control And Turn Into An Enormous Green Rage Monster.|
+| Captain America | 120 |I CAN DO THIS ALL DAY.|
+| Hulk | 150 | That's my secret Captain... I 'm always angry |
+| Thor | 180 | Bring Me Thanos !! |
 
 <!--Copy ending point-->
 
@@ -118,6 +118,40 @@
 | Mikasa | 160 |
 | Levi | 190 |
 | Eren | 210 |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (Fortnite Skins)       | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Tomato Head | 10 |
+| Creepy Bear | 25 |
+| Astro Jack | 40 |
+| Midas | 60 |
+| Fishstick | 75 |
+| Peely | 90 |
+| Raven | 130 |
+| Blaze | 150 |
+| Rippley | 165 |
+| Guff | 200 |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (One Piece)       | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Sabo | 10 |Just remember if Luffy ever calls for my help, no matter where I am in the world, I'll be there forget my position|
+| Portgas.D.Ace | 35 |We have to live a life of no regrest|
+| Trafalgar D. Water Law | 55 |The weak don’t get to decide anything, not even how they die.|
+| Boa Hancock | 75 |...no matter what I may do...I will always be forgiven...why, you ask...?...It is because I am BEAUTIFUL!!!|
+| Nico Robin | 95 |When You Have A Hard Time, Just Laugh|
+| Sanji | 115 |I Heard The Sound Of A Woman’s Tears Falling|
+| Blackbeard | 135 |People's dreams don't ever end!|
+| Whitebeard | 160 |Doesn't matter who you're born to… Everyone's still a child of the sea!!|
+| Rorona Zora | 185 |Only I Can Call My Dream Stupid!|
+| Monkey.D.Luffy | 200 |Forgetting is like a wound. The wound may heal but it has already left a scar.|
 
 <!--Copy end point-->
 
