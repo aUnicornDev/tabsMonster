@@ -140,6 +140,23 @@
 
 <!--Copy starting point-->
 
+| Character (Dragon ball)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |
+| Goku | 10 | And this... is to go... even further beyond!
+| Vegeta | 25 | I do not fear this new challenge. Rather like a true warrior I will rise to meet it.
+| Gohan | 40 | There's a lot more out there that I want to protect.
+| Yamcha| 60 | I hope I can make it out of this alive...
+| Trunks | 75 | I can't rely on others forever. I have to win my own battles!
+| Frieza | 90 | That’s right. Get it all out. Live boldly... even if it is only for a few more moments.
+| Cell | 130 | I thought you would’ve learned by now.
+| Bulma | 150 | Look at you! You’re supposed to cover up the front!
+| Piccolo | 165 | Sorry to keep you waiting.
+| Android 18 | 200 | You were…alive all this time?
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
 | Character (One Piece)       | monsterLevel    (number of tabs)| monsterQuote|
 | ----------------- | ------------------------------------------------------------------ |--|
 | Sabo | 10 |Just remember if Luffy ever calls for my help, no matter where I am in the world, I'll be there forget my position|
@@ -152,6 +169,7 @@
 | Whitebeard | 160 |Doesn't matter who you're born to… Everyone's still a child of the sea!!|
 | Rorona Zora | 185 |Only I Can Call My Dream Stupid!|
 | Monkey.D.Luffy | 200 |Forgetting is like a wound. The wound may heal but it has already left a scar.|
+
 
 <!--Copy end point-->
 
