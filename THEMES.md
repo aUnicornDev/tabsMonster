@@ -88,19 +88,19 @@
 
 <!--Copy starting point-->
 
-| Character (Naruto)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Sakura | 5 |
-| Shikamaru | 15 |
-| Kakashi | 40 |
-| Itachi | 60 |
-| Obito | 80 |
-| Minato | 95 |
-| Might Guy | 122 |
-| Madara | 130 |
-| Hashirama | 150 |
-| Sasuke | 180 |
-| Naruto | 200 |
+| Character (Naruto)        | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Sakura | 5 |  Every one of us must do what's in their power |
+| Shikamaru | 15 | What a drag |
+| Kakashi | 40 | In the Ninja World, those who break the rules are scum, That's True. But those who abandon their Friends are worse than scum |
+| Itachi | 60 | If you want to know who you are, you have to look at your real self and acknowledge what you see |
+| Obito | 80 | I am Obito Uchiha and I will surpass you once I awaken my Sharingan |
+| Minato | 95 | When people are protecting something truly special to them, they truly can become as strong as they can be |
+| Might Guy | 122 | You have the power to shape your own destiny |
+| Madara | 130 | In this world, wherever there is light - there are also shadows |
+| Hashirama | 150 | The fellow countrymen of the Konoha make up each part of my body… those of the village believe in me, and I believe in them… That's what it means to be Hokage |
+| Sasuke | 180 | I understand now. Even if I must take the devil's fruit, I must gain power. I am an avenger |
+| Naruto | 200 | I'll never go back on my Word. That's my Nindo: my ninja way!! |
 
 <!--Copy end point-->
 
