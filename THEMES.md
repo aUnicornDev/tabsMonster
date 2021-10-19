@@ -175,8 +175,8 @@
 
 <!--Copy starting point-->
 
-| Character (DC)       | monsterLevel    (number of tabs)| monsterQuote|
-| ----------------- | ------------------------------------------------------------------ |
+| Character (DC)       | monsterLevel    (number of tabs)| monsterQuote |
+| ----------------- | ------------------------------------------------------------------ |--|
 | Joker | 10 |No, you-- you complete me!|
 | Cyborg | 30 |Booyah|
 | Aquaman | 40 |I am the protector of the Deep|
