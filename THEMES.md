@@ -106,18 +106,18 @@
 
 <!--Copy starting point-->
 
-| Character (Attack On Titan)       | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Bertolt | 10 |
-| Jean Kirstein | 20 |
-| Reiner Braun | 40 |
-| Armin | 70 |
-| Erwin | 80 |
-| Annie | 90 |
-| Zeke | 120 |
-| Mikasa | 160 |
-| Levi | 190 |
-| Eren | 210 |
+| Character (Attack On Titan)       | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Bertolt | 10 | Are we doing it? Right now? Right here?!! |
+| Jean Kirstein | 20 |  I'll get Captain Levi to chop you up into nice bite-sized pieces |
+| Reiner Braun | 40 | Our Actions Right Now Will Affect The Lives Of Hundreds Of Thousands Of People|
+| Armin | 70 | When people are faced with a situation they don't understand, it's easy for fear to take hold |
+| Erwin | 80 | Its us who gives meaning to our comrades lives |
+| Annie | 90 | Scream And I Slice Your Neck Open |
+| Zeke | 120 | I'll Free The People Of The World From Their Fear Of The Titans And I'll Free The Eldians From Their Suffering |
+| Mikasa | 160 | I wonder, what kind of jokes can a corpse tell? |
+| Levi | 190 | The lesson you need to learn right now, can't be taught with words... only with actions |
+| Eren | 210 | You Have The Freedom To Defend The World's Freedom And I Have The Freedom To Continue Moving Forward |
 
 <!--Copy end point-->
 
