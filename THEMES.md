@@ -55,21 +55,6 @@
 
 <!--Copy starting point-->
 
-| Character (Pokemon)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Bulbasaur | 5 |
-| Wartortle | 16 |
-| Charizard | 36 |
-| Articuno | 60 |
-| Zapdos | 70 |
-| Moltres | 80 |
-| Mewtwo | 100 |
-| Mew | 180 |
-
-<!--Copy end point-->
-
-<!--Copy starting point-->
-
 | Character (Yu-Gi-Oh!)        | monsterLevel    (number of tabs)|
 | ----------------- | ------------------------------------------------------------------ |
 | Kuriboh | 5 |
@@ -203,6 +188,24 @@
 | Guzma | 150 | Wanna see what destruction looks like? Here it is in human form  |
 | N Pokemon Black/White | 165 | Make your wonderful dream a reality, it will become your truth. If anyone can, it’s you |
 | Looker | 200 | The more wonderful the meeting, the sadder the parting |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (SpongeBob SquarePants)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Patrick Star | 1 |I can't see my forehead!|
+| SpongeBob SquarePants | 5 |I'm ready, I'm ready.|
+| Pearl Krabs | 10 |Daddy you're cheap!|
+| Mrs. Poppy Puff | 20 |No more SpongeBob!|
+| Squidward Tentacles | 30 |I have no soul.|
+| Mr. Krabs | 50 |Give to the Children's fund? What have the children ever done for me?|
+| Gary | 80 |Meow.|
+| Sheldon J. Plankton | 140 |I don't get it. No matter what I do, I always end up being squashed by someone bigger than me.|
+| Sandy Cheeks | 180 |I'll be there faster than a bare-foot jackrabbit on a hot, greasy griddle, in the middle of August!|
+| Karen | 240 |Plankton: 1% Evil, 99% Hot Gas.|
+
 
 <!--Copy end point-->
 
