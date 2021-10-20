@@ -38,7 +38,7 @@
   display:flex;
   justify-content:center;
   align-items:center;
-
+  margin-left: 0.4rem;
 }
 .eye-ball{
   position:absolute;
@@ -157,5 +157,61 @@
     margin-bottom: 0px;
     padding-top: 20px;
     font-size: 20px;
-    
+}
+
+@media screen and (min-width: 483px) and (max-width: 920px) {
+    .logo {
+        font-size: 90px;
+        letter-spacing: -8px;
+    }
+    .eye {
+        display: none;
+    }
+    .removeO {
+        opacity: 100;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 482px) {
+    .logo {
+        font-size: 68px;
+        letter-spacing: -4px;
+    }
+    .tagline {
+        font-size: 18px;
+    }
+    .eye {
+        display: none;
+    }
+    .removeO {
+        opacity: 100;
+    }
+}
+
+@media screen and (max-width: 380px) and (min-width: 200px) {
+    .logo {
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+    .eye {
+        display: none;
+    }
+    .removeO {
+        opacity: 100;
+    }
+}    
+
+@media screen and (max-width:565px) {
+    .download-parent {
+        flex-direction: column;
+    }
+    .download {
+        margin-bottom: 1px;
+    }
+    .chrome {
+        margin-top: 50px;
+    }
 }
