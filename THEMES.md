@@ -224,6 +224,21 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character (Friends)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Mike Hannigan | 5 |You’re a strange kind of grown-up|
+| Phoebe Buffay | 10 |They don’t know that we know they know we know|
+| Ross Geller | 20 |We were on a break!|
+| Monica Geller | 30 |Welcome to the real world. It sucks. You’re gonna love it.|
+| Rachel Green | 45 |Well, maybe I don’t need your money. Wait, wait, I said maybe!|
+| Chandler Bing | 70 |I’m not great at the advice. Can I interest you in a sarcastic comment?|
+| Joey Tribbiani | 100 |How you doin’?|
+
+
+<!--Copy end point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
