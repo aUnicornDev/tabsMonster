@@ -66,7 +66,7 @@
 | Mewtwo | 100 |
 | Mew | 180 |
 
-<!--Copy end point-->
+<!--Copy ending point-->
 
 <!--Copy starting point-->
 
@@ -191,6 +191,23 @@
 
 <!--Copy starting point-->
 
+| Character (Pokemon)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Ash Ketchum | 10 | Pikachu, our lucky star is shining today! |
+| Misty Williams | 25 | Don’t you know that love is the most important thing in the whole world? |
+| James | 40 | Team Rocket blasting off at the speed of light! |
+| Miranda | 60 | Some trainers have no fear. To them, this is just one more challenge |
+| Mewtwo | 75 | Humans may have created me, but they will never enslave me. This cannot be my destiny |
+| Brock Harrison | 90 | A Caterpie may change into a Butterfree, but the heart that beats inside remains the same |
+| Professor Oak | 130 | I came when I heard you had beaten the Elite Four! |
+| Guzma | 150 | Wanna see what destruction looks like? Here it is in human form  |
+| N Pokemon Black/White | 165 | Make your wonderful dream a reality, it will become your truth. If anyone can, it’s you |
+| Looker | 200 | The more wonderful the meeting, the sadder the parting |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
 | Character (SpongeBob SquarePants)       | monsterLevel    (number of tabs)| monsterQuote
 | ----------------- | ------------------------------------------------------------------ |--|
 | Patrick Star | 1 |I can't see my forehead!|
@@ -203,6 +220,7 @@
 | Sheldon J. Plankton | 140 |I don't get it. No matter what I do, I always end up being squashed by someone bigger than me.|
 | Sandy Cheeks | 180 |I'll be there faster than a bare-foot jackrabbit on a hot, greasy griddle, in the middle of August!|
 | Karen | 240 |Plankton: 1% Evil, 99% Hot Gas.|
+
 
 <!--Copy end point-->
 
