@@ -55,6 +55,21 @@
 
 <!--Copy starting point-->
 
+| Character (Pokemon)        | monsterLevel    (number of tabs)|
+| ----------------- | ------------------------------------------------------------------ |
+| Bulbasaur | 5 |
+| Wartortle | 16 |
+| Charizard | 36 |
+| Articuno | 60 |
+| Zapdos | 70 |
+| Moltres | 80 |
+| Mewtwo | 100 |
+| Mew | 180 |
+
+<!--Copy ending point-->
+
+<!--Copy starting point-->
+
 | Character (Yu-Gi-Oh!)        | monsterLevel    (number of tabs)|
 | ----------------- | ------------------------------------------------------------------ |
 | Kuriboh | 5 |
