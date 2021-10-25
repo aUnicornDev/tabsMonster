@@ -39,12 +39,35 @@ body{
 .addBar .address{
     height: 24px;
     width: 286px;
-    background-color: white;
+    background-color: #F8F8F8;
     margin-left: 6px;
     margin-top: 8px;
     margin-bottom: 7px;
     border-radius: 26px;
 }
-.addBar .address img{
-    height: 12px;
+
+.addBar .address .lock{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    /* margin-top: 5px;
+    margin-left: 3px; */
+}
+
+.addBar .address .lock img{
+    height: 16px;
+    position: absolute;
+    display: block;
+    top: 4px;
+    left: 4px;
+
+}
+
+.addBar .address span{
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 4px;
 }
