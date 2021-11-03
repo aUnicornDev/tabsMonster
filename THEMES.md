@@ -66,7 +66,7 @@
 | Mewtwo | 100 |
 | Mew | 180 |
 
-<!--Copy end point-->
+<!--Copy ending point-->
 
 <!--Copy starting point-->
 
@@ -88,36 +88,36 @@
 
 <!--Copy starting point-->
 
-| Character (Naruto)        | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Sakura | 5 |
-| Shikamaru | 15 |
-| Kakashi | 40 |
-| Itachi | 60 |
-| Obito | 80 |
-| Minato | 95 |
-| Might Guy | 122 |
-| Madara | 130 |
-| Hashirama | 150 |
-| Sasuke | 180 |
-| Naruto | 200 |
+| Character (Naruto)        | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Sakura | 5 |  Every one of us must do what's in their power |
+| Shikamaru | 15 | What a drag |
+| Kakashi | 40 | In the Ninja World, those who break the rules are scum, That's True. But those who abandon their Friends are worse than scum |
+| Itachi | 60 | If you want to know who you are, you have to look at your real self and acknowledge what you see |
+| Obito | 80 | I am Obito Uchiha and I will surpass you once I awaken my Sharingan |
+| Minato | 95 | When people are protecting something truly special to them, they truly can become as strong as they can be |
+| Might Guy | 122 | You have the power to shape your own destiny |
+| Madara | 130 | In this world, wherever there is light - there are also shadows |
+| Hashirama | 150 | The fellow countrymen of the Konoha make up each part of my body… those of the village believe in me, and I believe in them… That's what it means to be Hokage |
+| Sasuke | 180 | I understand now. Even if I must take the devil's fruit, I must gain power. I am an avenger |
+| Naruto | 200 | I'll never go back on my Word. That's my Nindo: my ninja way!! |
 
 <!--Copy end point-->
 
 <!--Copy starting point-->
 
-| Character (Attack On Titan)       | monsterLevel    (number of tabs)|
-| ----------------- | ------------------------------------------------------------------ |
-| Bertolt | 10 |
-| Jean Kirstein | 20 |
-| Reiner Braun | 40 |
-| Armin | 70 |
-| Erwin | 80 |
-| Annie | 90 |
-| Zeke | 120 |
-| Mikasa | 160 |
-| Levi | 190 |
-| Eren | 210 |
+| Character (Attack On Titan)       | monsterLevel    (number of tabs)| monsterQuote|
+| ----------------- | ------------------------------------------------------------------ |--|
+| Bertolt | 10 | Are we doing it? Right now? Right here?!! |
+| Jean Kirstein | 20 |  I'll get Captain Levi to chop you up into nice bite-sized pieces |
+| Reiner Braun | 40 | Our Actions Right Now Will Affect The Lives Of Hundreds Of Thousands Of People|
+| Armin | 70 | When people are faced with a situation they don't understand, it's easy for fear to take hold |
+| Erwin | 80 | Its us who gives meaning to our comrades lives |
+| Annie | 90 | Scream And I Slice Your Neck Open |
+| Zeke | 120 | I'll Free The People Of The World From Their Fear Of The Titans And I'll Free The Eldians From Their Suffering |
+| Mikasa | 160 | I wonder, what kind of jokes can a corpse tell? |
+| Levi | 190 | The lesson you need to learn right now, can't be taught with words... only with actions |
+| Eren | 210 | You Have The Freedom To Defend The World's Freedom And I Have The Freedom To Continue Moving Forward |
 
 <!--Copy end point-->
 
@@ -140,6 +140,23 @@
 
 <!--Copy starting point-->
 
+| Character (Dragon ball)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ | --|
+| Goku | 10 | And this... is to go... even further beyond! |
+| Vegeta | 25 | I do not fear this new challenge. Rather like a true warrior I will rise to meet it. |
+| Gohan | 40 | There's a lot more out there that I want to protect. |
+| Yamcha| 60 | I hope I can make it out of this alive...  |
+| Trunks | 75 | I can't rely on others forever. I have to win my own battles!   |
+| Frieza | 90 | That’s right. Get it all out. Live boldly... even if it is only for a few more moments.  |
+| Cell | 130 | I thought you would’ve learned by now.  |
+| Bulma | 150 | Look at you! You’re supposed to cover up the front!  |
+| Piccolo | 165 | Sorry to keep you waiting.  |
+| Android 18 | 200 | You were…alive all this time?  |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
 | Character (One Piece)       | monsterLevel    (number of tabs)| monsterQuote|
 | ----------------- | ------------------------------------------------------------------ |--|
 | Sabo | 10 |Just remember if Luffy ever calls for my help, no matter where I am in the world, I'll be there forget my position|
@@ -152,6 +169,58 @@
 | Whitebeard | 160 |Doesn't matter who you're born to… Everyone's still a child of the sea!!|
 | Rorona Zora | 185 |Only I Can Call My Dream Stupid!|
 | Monkey.D.Luffy | 200 |Forgetting is like a wound. The wound may heal but it has already left a scar.|
+
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (DC)       | monsterLevel    (number of tabs)| monsterQuote |
+| ----------------- | ------------------------------------------------------------------ |--|
+| Joker | 10 |No, you-- you complete me!|
+| Cyborg | 30 |Booyah|
+| Aquaman | 40 |I am the protector of the Deep|
+| Flash | 70 |I am the fastest man alive|
+| Green Lantern | 100 |In brightest day, in darkest night No evil shall escape my sight! Let those who worship evil’s might Beware my power — Green Lantern’s light!|
+| Super Girl | 140 |Hope, help, and compassion for all|
+| Wonder Woman | 170 |If loss makes you doubt your belief in justice, then you never truly believed in justice at all.|
+| Batman | 350 |It’s not who I am underneath, but what I do that defines me.|
+| Superman | 2000 |You’re going to change the world.|
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (Pokemon)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Ash Ketchum | 10 | Pikachu, our lucky star is shining today! |
+| Misty Williams | 25 | Don’t you know that love is the most important thing in the whole world? |
+| James | 40 | Team Rocket blasting off at the speed of light! |
+| Miranda | 60 | Some trainers have no fear. To them, this is just one more challenge |
+| Mewtwo | 75 | Humans may have created me, but they will never enslave me. This cannot be my destiny |
+| Brock Harrison | 90 | A Caterpie may change into a Butterfree, but the heart that beats inside remains the same |
+| Professor Oak | 130 | I came when I heard you had beaten the Elite Four! |
+| Guzma | 150 | Wanna see what destruction looks like? Here it is in human form  |
+| N Pokemon Black/White | 165 | Make your wonderful dream a reality, it will become your truth. If anyone can, it’s you |
+| Looker | 200 | The more wonderful the meeting, the sadder the parting |
+
+<!--Copy end point-->
+
+<!--Copy starting point-->
+
+| Character (SpongeBob SquarePants)       | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Patrick Star | 1 |I can't see my forehead!|
+| SpongeBob SquarePants | 5 |I'm ready, I'm ready.|
+| Pearl Krabs | 10 |Daddy you're cheap!|
+| Mrs. Poppy Puff | 20 |No more SpongeBob!|
+| Squidward Tentacles | 30 |I have no soul.|
+| Mr. Krabs | 50 |Give to the Children's fund? What have the children ever done for me?|
+| Gary | 80 |Meow.|
+| Sheldon J. Plankton | 140 |I don't get it. No matter what I do, I always end up being squashed by someone bigger than me.|
+| Sandy Cheeks | 180 |I'll be there faster than a bare-foot jackrabbit on a hot, greasy griddle, in the middle of August!|
+| Karen | 240 |Plankton: 1% Evil, 99% Hot Gas.|
+
 
 <!--Copy end point-->
 
