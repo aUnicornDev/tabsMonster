@@ -224,6 +224,19 @@
 
 <!--Copy end point-->
 
+<!--Copy starting point-->
+
+| Character(Star Wars)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Yoda | 30 |"Size matters not. Look at me. Judge me by my size, do you?"|
+| Emperor Palpatine | 66 |"Execute Order 66."|
+| Princess Leia | 90 |"You're Braver Than I Thought."|
+| Padme Amidala | 120 |"You're going down a path I can't follow."|
+| Luke Skywalker | 150 | "You're overconfidence is your weakness." |
+| Obi-Wan Kenobi | 180 |  “Why do I get the feeling that you're going to be the death of me?” |
+
+<!--Copy ending point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
