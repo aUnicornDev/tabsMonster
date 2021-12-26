@@ -2,3 +2,5 @@
 tabsMonster-api/tabsMonsterAPI/.env
 .vscode/settings.json
 tabsMonster-api/tabsMonsterAPI/__pycache__/main.cpython-37.pyc
+tabsMonster-api/tabsMonsterAPI/.deta/prog_info
+tabsMonster-api/tabsMonsterAPI/.deta/state
