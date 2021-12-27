@@ -14,7 +14,7 @@ supabase: Client = create_client(url, key)
 def themes():
     themes = supabase.table('themes').select('*').execute()
     for theme in themes['data']:
-        theme['monsterThemeBg'] = supabase.storage().StorageFileAPI('supafast-api').get_public_url('themes/'+ theme['monsterTheme'].replace(' ','-') + '.png')
+        theme['monsterThemeBg'] = supabase.storage().StorageFileAPI('tabsmonster').get_public_url('themes/'+ theme['monsterTheme'].replace(' ','-') + '.png')
     
     return themes
 
@@ -22,6 +22,6 @@ def themes():
 def monsters(theme : str = "techTwitter"):
     monsters = supabase.table('monsters').select('*').eq('monsterTheme',theme).execute()
     for monster in monsters['data']:
-        monster['monsterBg'] = supabase.storage().StorageFileAPI('supafast-api').get_public_url(monster['monsterTheme']+'/'+ monster['monsterName'].replace(' ','-') + '.png')
+        monster['monsterBg'] = supabase.storage().StorageFileAPI('tabsmonster').get_public_url(monster['monsterTheme']+'/'+ monster['monsterName'].replace(' ','-') + '.png')
 
     return monsters
