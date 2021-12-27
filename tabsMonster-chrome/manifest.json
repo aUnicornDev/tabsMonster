@@ -19,8 +19,15 @@
             "16":"./img/tabsMonster-16.png",
             "32":"./img/tabsMonster-32.png"
         },
-        "default_popup": "popup.html"
+        "default_popup": "popup/popup.html"
     }
+    ,
+    "options_page": "options/options.html",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": ["https://e5w1sl.deta.dev/*"]
+
 
 
 }
