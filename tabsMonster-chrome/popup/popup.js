@@ -1,4 +1,7 @@
+//popup.js
+
 const tabsCount = document.querySelector('.tabs-count');
+const canvas = document.querySelector('.canvasTest');
 const monsterName = document.querySelector('.card__name');
 const monsterQuote = document.querySelector('.card__quote');
 const monsterImage = document.querySelector('.monster-image');
@@ -32,4 +35,15 @@ document.addEventListener('DOMContentLoaded',()=>{
     })
     
 })
+
+
+
+const options = document.querySelector('.options');
+options.addEventListener('click',(e)=>{
+    if (chrome.runtime.openOptionsPage) {
+        chrome.runtime.openOptionsPage();
+      } else {
+        window.open(chrome.runtime.getURL('options.html'));
+      }
+    })
 
