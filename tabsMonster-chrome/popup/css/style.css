@@ -128,6 +128,10 @@ header {
   margin-right: 1.6rem;
 }
 
+.options:hover {
+  background-color: #626262;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
