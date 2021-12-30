@@ -29,6 +29,7 @@ nav{
 .tab{
     display: flex;
     align-items: center ;
+    cursor: pointer;
     &__favicon{
         height: 1.6rem;
         padding-left:8px;

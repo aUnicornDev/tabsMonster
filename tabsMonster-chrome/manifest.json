@@ -26,7 +26,15 @@
     "permissions": [
         "storage"
     ],
-    "host_permissions": ["https://e5w1sl.deta.dev/*"]
+    "host_permissions": ["https://e5w1sl.deta.dev/*"],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          
+          "js": ["content.js"],
+          "run_at":"document_end"
+        }
+      ]
 
 
 

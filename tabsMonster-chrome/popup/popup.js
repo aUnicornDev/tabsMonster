@@ -5,6 +5,8 @@ const canvas = document.querySelector('.canvasTest');
 const monsterName = document.querySelector('.card__name');
 const monsterQuote = document.querySelector('.card__quote');
 const monsterImage = document.querySelector('.monster-image');
+const tabsMonsterTab = document.querySelector('#tabsMonster');
+const tabsMonsterStatsTab = document.querySelector('#tabsMonsterStats');
 const setMonsterData = (res)=>{
     console.log(res);
     tabsCount.textContent = res.tabsCount;
@@ -34,6 +36,20 @@ document.addEventListener('DOMContentLoaded',()=>{
         });
     })
     
+})
+
+tabsMonsterStatsTab.addEventListener('click',()=>{
+    document.getElementsByClassName('tabsMonster')[0].style.display = "none"; 
+    document.getElementsByClassName('tabsMonsterStats')[0].style.display = "flex"; 
+    tabsMonsterTab.classList.remove('active');
+    tabsMonsterStatsTab.classList.add('active');
+})
+
+tabsMonsterTab.addEventListener('click',()=>{
+    document.getElementsByClassName('tabsMonsterStats')[0].style.display = "none";
+    document.getElementsByClassName('tabsMonster')[0].style.display = "flex";
+    tabsMonsterStatsTab.classList.remove('active');
+    tabsMonsterTab.classList.add('active');
 })
 
 
