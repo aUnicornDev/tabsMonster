@@ -180,3 +180,54 @@ main{
 
 
 }
+.share{
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    top:8px;
+    right:8px;
+    background-color: #379F74;
+    outline:none;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__options{
+        display: flex;
+        // flex-direction: column;
+        background-color: white;
+        width:max-content;
+        padding: .7rem 1rem;
+        border-radius: 2px;
+        position: absolute;
+        top:3.5rem;
+        right:8px;
+    }
+    &__option{
+        height: 3.2rem;
+        width: 3.2rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:not(:last-child){
+            margin-right: .5rem;
+        }
+    }
+    &__option:hover{
+        background-color:#BABABA;
+    }
+
+}
+.share:hover{
+    background-color: #287655;
+}
+
+.share__options{
+
+}
+.hide{
+    display: none;
+}

@@ -63,3 +63,28 @@ options.addEventListener('click',(e)=>{
       }
     })
 
+const share = document.querySelector('.share');
+const shareOption = document.querySelector('.share__options');
+const download = document.querySelector('.download');
+share.addEventListener('focus',()=>{
+    shareOption.classList.toggle('hide');
+    share.blur(); 
+
+})
+download.addEventListener('click',()=>{
+    share.focus();
+    html2canvas(document.querySelector(".tabsMonster"),{"useCORS":true}).then(canvas => {
+        
+        let link = document.createElement('a');
+        link.download = 'filename.png';
+        link.href = canvas.toDataURL()
+        link.click();
+    });
+})
+
+const shareTwitter = document.querySelector('.twitter');
+shareTwitter.addEventListener('click',()=>{
+    let text =encodeURI(`\nSending this tweet from the Chrome extension itself. Will share progress on the design soon. Thanks again to @fireship_dev for such a perfectly timed Youtube shorts and to @dicebearcom.\n`);
+    window.open(`https://twitter.com/intent/tweet?text=Day 25 of %23100DaysofCode.`+`${text}` + `%23buildinpublic %23tabsMonster`)
+    
+})

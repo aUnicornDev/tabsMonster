@@ -243,4 +243,71 @@ main {
   font-size: 1.4rem;
   padding-left: 2px;
 }
+
+.share {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #379F74;
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: .7rem 1rem;
+  border-radius: 2px;
+  position: absolute;
+  top: 3.5rem;
+  right: 8px;
+}
+
+.share__option {
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share__option:not(:last-child) {
+  margin-right: .5rem;
+}
+
+.share__option:hover {
+  background-color: #BABABA;
+}
+
+.share:hover {
+  background-color: #287655;
+}
+
+.hide {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
