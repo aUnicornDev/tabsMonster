@@ -116,6 +116,13 @@ All thanks goes to these amazing people
     <td align="center"><a href="https://github.com/Andrew6rant"><img src="https://avatars.githubusercontent.com/u/57331134?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Grant</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/GaryNLOL"><img src="https://avatars.githubusercontent.com/u/46727048?v=4" width="100px;" alt=""/><br /><sub><b>GaryNLOL</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/everly-gif"><img src="https://avatars.githubusercontent.com/u/77877486?v=4" width="100px;" alt=""/><br /><sub><b>Everly Precia Suresh</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Pranai2518"><img src="https://avatars.githubusercontent.com/u/75829770?v=4" width="100px;" alt=""/><br /><sub><b>Pranai Raj</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/pratikkarelia25"><img src="https://avatars.githubusercontent.com/u/69764794?v=4" width="100px;" alt=""/><br /><sub><b>Pratik Karelia</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/vanzasetia"><img src="https://avatars.githubusercontent.com/u/79028030?v=4" width="100px;" alt=""/><br /><sub><b>Vanza Setia</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/MidouWebDev"><img src="https://avatars.githubusercontent.com/u/72341453?v=4" width="100px;" alt=""/><br /><sub><b>MidouWebDev</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ssensalo"><img src="https://avatars.githubusercontent.com/u/32780232?v=4" width="100px;" alt=""/><br /><sub><b>Ssensalo Edgar</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Yugal41735"><img src="https://avatars.githubusercontent.com/u/74638775?v=4" width="100px;" alt=""/><br /><sub><b>Yugal41735</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/KrystalJean"><img src="https://avatars.githubusercontent.com/u/44277065?v=4" width="100px;" alt=""/><br /><sub><b>Krystal Austin</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/aUnicornDev"><img src="https://avatars.githubusercontent.com/u/86775297?s=400&u=613d1b8f8ea5ac5f1da382e11b2c78c618ec87ac&v=4" width="100px;" alt=""/><br /><sub><b>Yashasvi Singh</b></sub></a><br /></td>
   </tr>
 </table>
