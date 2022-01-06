@@ -237,6 +237,21 @@
 
 <!--Copy ending point-->
 
+<!--Copy starting point-->
+
+| Character(The Big Bang Theory)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Sheldon Cooper | 30 |"I am not insane. My mother had me tested."|
+| Howard Wolowitz | 60 |"I am a horny engineer. I never joke about math or sex."|
+| Leonard | 90 |"I am the King of nerds."|
+| Rajesh Koothrapali | 120 |"Whoa! what's your hurry cowboy?"|
+| Amy Farah Fowler | 150 | "I have a sorta kinda boyfriend at home playing with a model train, but you didn't hear me bitching about it." |
+| Berneatedde | 180 |  “Oh, boo-hoo! you're not going to space!” |
+| Barry Kripke | 200 |  “If this one's bwank, I am going to be fuwious.” |
+| Penny | 250 |  “Wassup Shel-bot?” |
+
+<!--Copy ending point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
