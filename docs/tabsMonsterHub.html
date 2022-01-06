@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabsMonsterHub</title>
+    <style>
+        #counter{
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 20px;
+            height: 20px;
+            margin:10px;
+            background-color: aquamarine;
+        }
+        .gray{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter">
+        <div v-for = "date in gridDates">
+            <div :class="{box:true,gray:getValue(date)}" :title ="getTooltipText(date)" >
+            </div>
+        </div>
+    </div>
+
+      <script src="https://unpkg.com/vue@next"></script>
+      <script src="src/tabsMonsterHub.js"></script>
+</body>
+</html>
