@@ -4,31 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Balsamiq+Sans:wght@400;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <title>tabsMonsterHub</title>
     <style>
+        body{
+            background-color: #333;
+        }
         #counter{
             display: flex;
             flex-direction: column;
-            height: 300px;
+            height: 120px;
             flex-wrap: wrap;
+            width: 60%;
+            /* position: relative; */
         }
         .box{
-            width: 20px;
-            height: 20px;
-            margin:10px;
-            background-color: aquamarine;
+            width: 12px;
+            height: 12px;
+            margin:2.5px;
+            border-radius: 2px;
+            position: relative;
+
+
         }
-        .gray{
+        .tooltip{
+            font-family: 'Balsamiq Sans', cursive;
+            width: 300px;
+            /* height: 20px; */
+            font-size:14px;
+            background-color: #222;
+            color: #fff;
+            position: absolute;
+            bottom:-40px;
+            right:-50%;
+            transform: translateX(50%);
+            border-radius: 5px;
+            z-index: 100;
+            opacity:0;
+            visibility: hidden;
+            transition:.3s;
+            pointer-events: none;
+            text-align: center;
+            padding:10px 0px;
+            /* display: none; */
+        }
+        /* .box::after{
+            content: attr(data-tooltipText);
+            opacity: 0;
+            visibility: visible;
+            width:100px;
+        }*/
+        .box:hover .tooltip{
+            transition:.3s;
+            opacity: 1;
+            visibility: visible; 
+
+        } 
+        /* .gray{
             background-color: gray;
-        }
+        } */
     </style>
 </head>
 <body>
     <div id="counter">
-        <div v-for = "date in gridDates">
-            <div :class="{box:true,gray:getValue(date)}" :title ="getTooltipText(date)" >
+        
+
+            <div v-for = "date in gridDates">
+                <div class="box" :style ="getBackgroundColor(date)">
+                    <span class="tooltip" >{{getTooltipText(date)}}</span>
+                </div>
             </div>
-        </div>
+        
     </div>
 
       <script src="https://unpkg.com/vue@next"></script>

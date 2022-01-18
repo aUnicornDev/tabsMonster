@@ -11,13 +11,35 @@ const Counter = {
     methods:{
         getTooltipText(date){
             let options = { year: 'numeric', month: 'long', day: 'numeric' }
-            return `${this.tabsMonsterHub[date.toLocaleDateString()]} tabs opened, ${date.toLocaleDateString('en-US', options)}`
+            return `${this.tabsMonsterHub[date.toLocaleDateString()]? this.tabsMonsterHub[date.toLocaleDateString()]: 0} tabs opened on ${date.toLocaleDateString('en-US', options)}`
         },
         getValue(date){
             return !this.tabsMonsterHub[date.toLocaleDateString()]
+        },
+        getBackgroundColor(date){
+          let backgroundColor = "#ddd"
+          styleObject = {
+            backgroundColor: "#ddd",
+          }
+          if(this.tabsMonsterHub[date.toLocaleDateString()]>225){
+            backgroundColor ="#389583"
+          }
+          else if(this.tabsMonsterHub[date.toLocaleDateString()]>75){
+            
+            backgroundColor ="#40BF8A"
+          }
+          else if(this.tabsMonsterHub[date.toLocaleDateString()]>25){
+            
+            backgroundColor ="#8DE4AF"
+          }
+          else if(this.tabsMonsterHub[date.toLocaleDateString()]>0){
+            backgroundColor ="#EDF5E0"
+          }
+          styleObject.backgroundColor = backgroundColor;
+          return styleObject;
         }
     },
-    mounted(){
+    async mounted(){
         function getDates (startDate, endDate) {
             const dates = []
             let currentDate = startDate
@@ -40,8 +62,11 @@ const Counter = {
         
         
         const gridDates = getDates(new Date(prevYearDate.getFullYear(),prevYearDate.getMonth() ,prevYearDate.getDate() ), new Date(today.getFullYear(),today.getMonth() ,today.getDate()))
-        this.tabsMonsterHub = JSON.parse(localStorage.getItem('tabsMonster')).tabsMonsterHub.dates;
         this.gridDates = gridDates;
+        setTimeout(()=>{
+          this.tabsMonsterHub = JSON.parse(localStorage.getItem('tabsMonster')).tabsMonsterHub.dates;
+
+        },2000);
        
         
 
