@@ -300,7 +300,7 @@ main {
 }
 
 .share__option:hover {
-  background-color: #BABABA;
+  background-color: var(--color-secondary-light);
 }
 
 .share:hover {
@@ -309,5 +309,108 @@ main {
 
 .hide {
   display: none;
+}
+
+.graph {
+  background-color: #05396B;
+  height: 14rem;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-radius: 5px 5px 0 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.bar {
+  width: 20px;
+  height: 0;
+  margin-bottom: .5rem;
+  background-color: var(--color-secondary);
+  color: var(--color-secondary);
+  position: relative;
+}
+
+.bar::before {
+  content: attr(data-day);
+  /* value that that refers to CSS 'content' */
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  font-size: 1.4rem;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #05396B;
+}
+
+.bar::after {
+  content: attr(data-bar);
+  /* value that that refers to CSS 'content' */
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  font-size: 1.4rem;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: var(--color-secondary);
+  width: 30rem;
+  height: 11rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.tabs {
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1.5rem 4rem;
+  color: #05396B;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.tabs__max::before {
+  font-size: 1rem;
+  content: "MAX TABS";
+  position: absolute;
+  bottom: .5rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.tabs__total::before {
+  font-size: 1rem;
+  content: "TOTAL TABS ";
+  position: absolute;
+  bottom: .5rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.tabs__max:hover {
+  background-color: var(--color-secondary-light);
+}
+
+.tabs__total:hover {
+  background-color: var(--color-secondary-light);
 }
 /*# sourceMappingURL=style.css.map */

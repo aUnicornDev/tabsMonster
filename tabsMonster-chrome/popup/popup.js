@@ -4,22 +4,54 @@ const tabsCount = document.querySelector('.tabs-count');
 const canvas = document.querySelector('.canvasTest');
 const monsterName = document.querySelector('.card__name');
 const monsterQuote = document.querySelector('.card__quote');
+const totalTabs = document.querySelector('.tabs__total');
+const maxTabs = document.querySelector('.tabs__max');
 const monsterImage = document.querySelector('.monster-image');
 const tabsMonsterTab = document.querySelector('#tabsMonster');
 const tabsMonsterStatsTab = document.querySelector('#tabsMonsterStats');
-const setMonsterData = (res)=>{
+const setTabsMonsterData = (res)=>{
     console.log(res);
     tabsCount.textContent = res.tabsCount;
     monsterName.textContent = res.monster.monsterName;
     monsterQuote.textContent = res.monster.monsterQuote;
     monsterImage.setAttribute('src',res.monster.monsterBg);
 }
+const daysInAWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+const setTabsMonsterHubData = (res)=>{
+    maxTabs.textContent = res.tabsMonsterHub.maxTabs;
+    totalTabs.textContent = res.tabsMonsterHub.totalTabs;
 
+    let graphDates = getPreviousSevenDays();
+    let max = -Infinity;
+    console.log(res.tabsMonsterHub.dates)
+    console.log(max);
+    let tabsOnADay = undefined;
+    let tabsArray = [];
+    graphDates.forEach(graph=>{
+        console.log(graph.getDay())
+        console.log(graph)
+        if(res.tabsMonsterHub.dates[graph.toLocaleDateString()]==undefined){
+            tabsOnADay = 0
+        }
+        else{
+            // console.log(res.tabsMonsterHub.dates[graph.toLocaleDateString()])
+            tabsOnADay = res.tabsMonsterHub.dates[graph.toLocaleDateString()];
+
+        }
+        tabsArray.push([tabsOnADay,daysInAWeek[graph.getDay()]])
+        if(tabsOnADay>max){
+            max=tabsOnADay
+        }
+    })
+    setGraph(tabsArray,max);
+
+
+}
 
 document.addEventListener('DOMContentLoaded',()=>{
     
     chrome.tabs.query({windowType:'normal'}, function(tabs) {    
-        chrome.storage.local.get(['monsters'], function(result) {
+        chrome.storage.local.get(['monsters','tabsMonsterHub'], function(result) {
             let monster;
             let flag = 0;
             for(let i =0;i<result.monsters.length;i++){
@@ -32,7 +64,9 @@ document.addEventListener('DOMContentLoaded',()=>{
             if(flag==0){
                 monster = result.monsters[result.monsters.length -1]
             }
-            setMonsterData({ monster:monster, tabsCount: tabs.length })       
+            
+            setTabsMonsterData({ monster:monster, tabsCount: tabs.length })    
+            setTabsMonsterHubData({tabsMonsterHub:result.tabsMonsterHub})   
         });
     })
     
@@ -88,3 +122,45 @@ shareTwitter.addEventListener('click',()=>{
     window.open(`https://twitter.com/intent/tweet?text=Day 25 of %23100DaysofCode.`+`${text}` + `%23buildinpublic %23tabsMonster`)
     
 })
+function getDates (startDate, endDate) {
+    const dates = []
+    let currentDate = startDate
+    const addDays = function (days) {
+      const date = new Date(this.valueOf())
+      date.setDate(date.getDate() + days)
+      return date
+    }
+    while (currentDate <= endDate) {
+      dates.push(currentDate)
+      currentDate = addDays.call(currentDate, 1)
+    }
+    return dates
+}
+function getPreviousSevenDays (){
+
+    const today = new Date();
+    const yearBeforeCount = today.getDate() - 6 ;
+    let prevYearDate = new Date();
+    prevYearDate.setDate(yearBeforeCount);
+    console.log(prevYearDate)
+    
+    
+    const gridDates = getDates(new Date(prevYearDate.getFullYear(),prevYearDate.getMonth() ,prevYearDate.getDate() ), new Date(today.getFullYear(),today.getMonth() ,today.getDate()))
+    return gridDates
+}
+// this.tabsMonsterHub = JSON.parse(localStorage.getItem('tabsMonster')).tabsMonsterHub.dates;
+// this.gridDates = gridDates;
+
+const setGraph =(tabsArray,maxTabsInWeek)=>{
+
+    const graphBars = document.querySelectorAll('.bar');
+    
+    graphBars.forEach((bar,index)=>{
+        
+        bar.style.height = (tabsArray[index][0]/maxTabsInWeek)*100 +"px";
+        bar.dataset.bar = tabsArray[index][0];
+        bar.dataset.day = tabsArray[index][1];
+        
+    })
+}
+
