@@ -161,7 +161,8 @@ main {
 .card {
   width: 30rem;
   position: inherit;
-  background-color: var(--color-secondary);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, var(--color-secondary)), color-stop(80%, var(--color-secondary-light)));
+  background: linear-gradient(var(--color-secondary) 20%, var(--color-secondary-light) 80%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,8 +170,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-filter: drop-shadow(0px 2px 11px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(0px 2px 11px rgba(0, 0, 0, 0.25));
 }
 
 .card__header {
@@ -222,7 +221,7 @@ main {
   height: 4.5rem;
   background-color: var(--color-secondary-light);
   border-radius: 0 0 2px 2px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .card__tabs-count {
@@ -235,7 +234,7 @@ main {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .card__tabs-count--label {
@@ -367,10 +366,11 @@ main {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, var(--color-secondary)), color-stop(80%, var(--color-secondary-light)));
+  background: linear-gradient(var(--color-secondary) 20%, var(--color-secondary-light) 80%);
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-color: var(--color-secondary);
   width: 30rem;
   height: 11rem;
   border-radius: 0 0 5px 5px;
@@ -378,39 +378,35 @@ main {
 
 .tabs {
   font-size: 3rem;
-  font-family: 'Open Sans', sans-serif;
-  padding: 1.5rem 4rem;
+  font-family: 'Balsamiq Sans', cursive;
+  padding: .8rem 1.5rem;
   color: #05396B;
+  cursor: pointer;
   border-radius: 5px;
   position: relative;
   margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .2rem;
+  font-weight: 700;
 }
 
-.tabs__max::before {
-  font-size: 1rem;
-  content: "MAX TABS";
-  position: absolute;
-  bottom: .5rem;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+.tabs__label {
+  font-size: 1.2rem;
 }
 
-.tabs__total::before {
-  font-size: 1rem;
-  content: "TOTAL TABS ";
-  position: absolute;
-  bottom: .5rem;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-}
-
-.tabs__max:hover {
-  background-color: var(--color-secondary-light);
-}
-
-.tabs__total:hover {
+.tabs:hover {
   background-color: var(--color-secondary-light);
 }
 /*# sourceMappingURL=style.css.map */
