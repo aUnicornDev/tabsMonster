@@ -73,31 +73,24 @@
     left:50%;
 }
 
-.navbar {
+header nav ul{
     display: flex;
-    justify-content: space-between;
+    z-index: 0;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
     align-items: center;
-    padding: 10px 0px;
 }
-
-.r-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-family: 'Nunito',sans-serif;    
+header nav ul li{
+    list-style-type: none;
+    font-size: x-large;
+    margin: 14px;
+    padding: 8px;
+    font-family: 'Nunito',sans-serif;
 }
-
-.r-nav li {
-    list-style:none;
-    margin:10px;
-}
-
-.r-nav a {
-    text-decoration: none;
-    padding:1rem;
-    color: #000;
-    font-size: 20px;
-    display: block;
+header nav ul li:hover{
+    color: blue;
+    cursor: pointer;
 }
 
 .toggle-button {
@@ -118,11 +111,6 @@
     background-color: white;
 }
 
-.r-nav li a:hover {
-    color: #208A5E;
-    transition: all .3s ease;
-}
-
 .download {
     border-radius: 20px;
     padding:12px 8px;
@@ -130,10 +118,14 @@
     border:none;
     background-color: #208A5E;
     color:white;
-    width:250px;
+    width:260px;
     font-size:20px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+.download:hover {
+    background-color: blue;
+    background: linear-gradient(to right, blue, purple);
 }
 
 .download-parent {
@@ -143,8 +135,9 @@
 }
 
 .download {
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .download-parent a {
@@ -154,12 +147,8 @@
     color:black;
 }
 
-.hero,
-.navbar {
+.hero{
     background-color: #b4ddf0;
-}
-
-.hero {
     height: 100vh;
 }
 
