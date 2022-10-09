@@ -252,6 +252,23 @@
 
 <!--Copy ending point-->
 
+<!--Copy starting point-->
+
+| Character(The Office)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Kelly Kapoor | 20 |“I talk a lot, so I’ve learned to tune myself out.”|
+| Kevin Malone | 30 |“Me think, why waste time say lot word, when few word do trick.”|
+| Stanley Hudson | 40 |“If I don’t have some cake soon, I might die.”|
+| Angela Martin | 60 |“I don’t want to be married in a tent like a hobo.” |
+| Jan Levinson | 80 |“There are always a million reasons not to do something.” |
+| Ryan Howard | 100 | “A few years ago, my family was on a safari in Africa and my cousin, Mufasa, was um, he was trampled to death by a pack of wildebeests and um, we all took it really hard.”|
+| Pam Beesley | 150 |  “I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for…at a dinner party.” |
+| Jim Halpert | 180 |  “One day Michael came in and complained about a speed bump on the highway. I wonder who he ran over then.” |
+| Dwight Schrute | 210 |  “Identity theft is not a joke, Jim! Millions of families suffer every year.”  |
+| Michael Scott | 250 |  “Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.” |
+
+<!--Copy ending point-->
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
