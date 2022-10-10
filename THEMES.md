@@ -269,6 +269,34 @@
 
 <!--Copy ending point-->
 
+<!--Copy starting point-->
+
+| Character(Pokegirl)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Mallow | 5 | Bounsweet |
+| Lillie | 10 | Vulpix |
+| Nurse Joy | 15 | Blissey |
+| Lana | 20 | Primarina |
+| Sonia | 25 | Yamper |
+| Officer Jennie | 30 | Arcanine |
+| Nessa | 35 | Drednaw |
+| Rose | 40 | Snivy |
+| May | 45 | Blaziken |
+| Elesa | 50 | Zebstrika |
+| Hilda | 55 | Emboar |
+| Sabrina | 60 | Kadabra |
+| Iris | 65 | Dragonite |
+| Serena | 70 | Braixen |
+| Dawn | 75 | Mamoswine |
+| Whitney | 80 | Miltank |
+| Misty | 85 | Gyarados |
+| Diantha | 90 | Gardevoir |
+| Bea | 95 | Machamp |
+| Cynthia | 100| Garchomp |
+
+<!--Copy ending point-->
+
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
