@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Balsamiq+Sans:wght@400;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Balsamiq+Sans:wght@400;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
     
@@ -35,7 +38,7 @@
                 <img src = '/img/tabsMonsterSecured-favicon.svg'>
 
             </div>
-            <span class="address-bar__website">https://www.tabsmonster.com</span>
+            <span class="address-bar__website">https://www.tabsmonster.in</span>
         </div>
         <div class="options" >
             <img src = '/img/tabsMonster-options.svg'>
@@ -45,10 +48,12 @@
     <main class = "tabsMonster" >
         <div class="card">
             <div class="card__header">
-                <img src="/img/tabsMonster-mascot.svg" alt="" class = "card__header-mascot">
                 <div class="card__image">
                     <img src="/img/john-doe.png" alt="" class="monster-image">
                 </div>
+                
+            </div>
+            <div class="card__content">
                 <button class="share">
                     <img src="/img/tabsMonster-share.svg" alt="">
                 </button>
@@ -63,20 +68,23 @@
                     </div>
 
                 </div>
-            </div>
-            <a href="" class="card__name">John Doe</a>
-            <p class="card__quote">Lorem ipsum dolor sit amet.</p>
-            <div class="card__tabs">
-                <span class="card__tabs-count">
-                    <span class="tabs-count">
-                        120
-                    </span>
-                    <span class="card__tabs-count--label">
-                        TABS
-                    </span> 
-                </span> 
+                <p class="card__quote">Lorem ipsum dolor sit amet.</p>
+                <a href="" class="card__name">John Doe</a>
             </div>            
         </div>
+        
+        <div class="card__tabs">
+            <span class="card__tabs-count">
+                <span class="card__tabs-count--label">
+                    CURRENT
+                </span> 
+                <span class="tabs-count">
+                    120
+                </span>
+            </span> 
+            <a href="#" class="card__stats">View Stats</a>
+        </div>            
+        
     </main>
     <main class = "tabsMonsterStats" style="display: none;">
         <div class="graph">

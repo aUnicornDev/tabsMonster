@@ -54,9 +54,16 @@ document.addEventListener('DOMContentLoaded',()=>{
         chrome.storage.local.get(['monsters','tabsMonsterHub'], function(result) {
             let monster;
             let flag = 0;
+            console.log(tabs)
             for(let i =0;i<result.monsters.length;i++){
                 if(result.monsters[i].monsterLevel > tabs.length){
-                    monster = result.monsters[i-1]
+                    if(i==0){
+                        monster = result.monsters[i]
+
+                    }
+                    else{
+                        monster = result.monsters[i-1]
+                    }
                     flag = 1
                     break;
                 }
@@ -65,6 +72,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 monster = result.monsters[result.monsters.length -1]
             }
             
+            console.log(monster)
             setTabsMonsterData({ monster:monster, tabsCount: tabs.length })    
             setTabsMonsterHubData({tabsMonsterHub:result.tabsMonsterHub})   
         });
