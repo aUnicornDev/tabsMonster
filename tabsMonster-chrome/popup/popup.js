@@ -1,14 +1,15 @@
 //popup.js
 
-const tabsCount = document.querySelector('.tabs-count');
+const tabsCount = document.querySelector('.card__tabs-count');
 const canvas = document.querySelector('.canvasTest');
 const monsterName = document.querySelector('.card__name');
 const monsterQuote = document.querySelector('.card__quote');
-const totalTabs = document.querySelector('.tabs__total');
-const maxTabs = document.querySelector('.tabs__max');
+const monsterStats = document.querySelector('.card__stats');
+const weekTabs = document.querySelector('.tabs__week');
 const monsterImage = document.querySelector('.monster-image');
 const tabsMonsterTab = document.querySelector('#tabsMonster');
 const tabsMonsterStatsTab = document.querySelector('#tabsMonsterStats');
+const tabsMonsterBar = document.querySelectorAll('.bar');
 const setTabsMonsterData = (res)=>{
     console.log(res);
     tabsCount.textContent = res.tabsCount;
@@ -16,10 +17,8 @@ const setTabsMonsterData = (res)=>{
     monsterQuote.textContent = res.monster.monsterQuote;
     monsterImage.setAttribute('src',res.monster.monsterBg);
 }
-const daysInAWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+const daysInAWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
 const setTabsMonsterHubData = (res)=>{
-    maxTabs.textContent = res.tabsMonsterHub.maxTabs;
-    totalTabs.textContent = res.tabsMonsterHub.totalTabs;
 
     let graphDates = getPreviousSevenDays();
     let max = -Infinity;
@@ -79,13 +78,17 @@ document.addEventListener('DOMContentLoaded',()=>{
     })
     
 })
+const showTabsMonsterStats = ()=>{
+    {
+        document.getElementsByClassName('tabsMonster')[0].style.display = "none"; 
+        document.getElementsByClassName('tabsMonsterStats')[0].style.display = "flex"; 
+        tabsMonsterTab.classList.remove('active');
+        tabsMonsterStatsTab.classList.add('active');
+}
+}
 
-tabsMonsterStatsTab.addEventListener('click',()=>{
-    document.getElementsByClassName('tabsMonster')[0].style.display = "none"; 
-    document.getElementsByClassName('tabsMonsterStats')[0].style.display = "flex"; 
-    tabsMonsterTab.classList.remove('active');
-    tabsMonsterStatsTab.classList.add('active');
-})
+tabsMonsterStatsTab.addEventListener('click',showTabsMonsterStats)
+monsterStats.addEventListener('click',showTabsMonsterStats)
 
 tabsMonsterTab.addEventListener('click',()=>{
     document.getElementsByClassName('tabsMonsterStats')[0].style.display = "none";
@@ -115,7 +118,7 @@ share.addEventListener('focus',()=>{
 })
 download.addEventListener('click',()=>{
     share.focus();
-    html2canvas(document.querySelector(".tabsMonster"),{"useCORS":true}).then(canvas => {
+    html2canvas(document.querySelector("body"),{"useCORS":true}).then(canvas => {
         
         let link = document.createElement('a');
         link.download = 'filename.png';
@@ -162,13 +165,23 @@ function getPreviousSevenDays (){
 const setGraph =(tabsArray,maxTabsInWeek)=>{
 
     const graphBars = document.querySelectorAll('.bar');
+    let maxIndex=0,maxInWeek = 0;
+    let tabsInWeek = 0;
     
     graphBars.forEach((bar,index)=>{
         
-        bar.style.height = (tabsArray[index][0]/maxTabsInWeek)*100 +"px";
+        bar.style.height = tabsArray[index][0] == 0 ? 2 : (tabsArray[index][0]/maxTabsInWeek)*100 +"px";
         bar.dataset.bar = tabsArray[index][0];
         bar.dataset.day = tabsArray[index][1];
+
+        tabsInWeek += tabsArray[index][0]
+        if(tabsArray[index][0]>maxInWeek){
+            maxInWeek=tabsArray[index][0]
+            maxIndex = index
+        }
         
     })
+    tabsMonsterBar[maxIndex].classList.add('bar--max');
+    weekTabs.textContent = tabsInWeek;
 }
 
