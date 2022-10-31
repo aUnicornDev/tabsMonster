@@ -269,6 +269,34 @@
 
 <!--Copy ending point-->
 
+<!--Copy starting point-->
+
+| Character(Pokegirl)        | monsterLevel    (number of tabs)| monsterQuote
+| ----------------- | ------------------------------------------------------------------ |--|
+| Mallow | 5 | Smack it! Crush it! Grind it! Turn it to goo! |
+| Lillie | 10 | Please... Don't tell anyone about this... It's...it's a secret, OK? |
+| Nurse Joy | 15 | Hello, and welcome to the Pokémon Center. We restore your tired Pokémon to full health. |
+| Lana | 20 | He is not my boyfriend! He is not my BOYFRIEND!! HE IS NOT MY BOYFRIEND!!! |
+| Sonia | 25 | Oh, sorry. So tell me, do you know a lot about Pokémon? |
+| Officer Jennie | 30 | My cousins are all police officers, all of us look identical, plus we're all named Jenny. |
+| Nessa | 35 | This is a little gift from us... I hope you can take it! |
+| Rosa | 40 | Well, you need a partner! |
+| May | 45 | My bike's barbecued!  |
+| Elesa | 50 | I meant to make your head spin, but you shocked me instead." |
+| Hilda | 55 | The best way to learn is to have a battle! |
+| Sabrina | 60 | I knew you were coming... Three years ago I had a vision of your arrival. |
+| Iris | 65 | The pain of my Pokémon... I feel it, too! |
+| Serena | 70 | Why don't you try picking on someone your own size, marshmallow brain.  |
+| Dawn | 75 | No need to worry! |
+| Whitney | 80 | ...Sniff... What? What do you want? A Badge? Oh, right. I forgot. Here's PlainBadge. |
+| Misty | 85 | Don’t you know that love is the most important thing in the whole world? |
+| Diantha | 90 | "What a strange question... Why would I want to play the same old roles forever? |
+| Bea | 95 | I'll use karate along with my Pokémon's moves! |
+| Cynthia | 100| I want you to keep meeting all kinds of people and Pokémon. I came all the way here just so I could say that to you! |
+
+<!--Copy ending point-->
+
+
 ###  *The theme can be anything in the Entertainment industry but bound to Movies, TV series, Anime, Video games*
 
 
